@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmanuel Herrera</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+    rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/experiences.css">
+    <script defer src="js/app.js"></script>
+
+</head>
+<body>
+    <header class="topheader">
+        <nav class="topnav">
+            <a href="#" class="logo">
+                <img 
+                height="50" 
+                width="50" 
+                src="img/IMG_20210826_182003 (1).jpg" 
+                alt="programador"
+                >
+                <div>
+                    Emmanuel Herrera <br/>
+                    { code }
+                </div>
+            </a>
+            <button class="open-menu" aria-label="Abrir menú">
+                <img src="img/hamburger-icon.svg" alt="abrir menú">
+            </button>
+            <ul class="menu">
+                <button class="close-menu" aria-label="Cerrar menú">
+                    <img src="img/close-icon.svg" alt="cerrar menú">
+                </button>
+                <li><a href="#profile" class="selected">Perfil</a></li>
+                <li><a href="#experience">Experiencia</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="horizontal-padding vertical-padding">
+        <section class="profile">
+            <div class="profile-info">
+                <h1 class="profile-title">Hola, soy <br/>Emmanuel Herrera</h1>
+                <p class="profile-detalis">
+                    Soy un un Dev en preparación en el programa de ORACLE Next Education, 
+                    también estudié la carrera de Informática y Tecnologías Computacionales
+                    de la cuál obtuve algo de experencia en varios lenguajes de programación y tecnologías.
+                </p>
+                <button class="profile-btn">
+                    Descargar CV
+                </button>
+            </div>
+            <span class="profile-img-section">
+                <img class="profile-img" src="img/IMG_20210826_182003 (1).jpg" alt="programador">
+                <div class="profile-img-line"></div>
+            </span>
+            
+        </section>
+    </div>
+
+    <section class="experiences">
+        <img src="img/wave.svg" alt="división" class="wave">
+        <div class="experiences-body">
+            <h2 class="experiences-title">Experiencia</h2>
+            <div class="experiences-grid">
+                <div class="empty"></div>
+                <div class="line"></div>
+                <div class="experience">
+                    <div class="experience-date">Agosto 2022 - Actualidad</div>
+                    <div class="experience-company">Esc. Bachilleres Matías Marín Vargas</div>
+                    <div class="experience-position">Docente de Informática</div>
+                    <div class="experience-description">
+                        Imparto las materias de Tecnologías 1, 2 y 3 a sus respectivos grados 
+                        de nivel secundaria primero, segundo y tercer grado. También imparto la 
+                        clase de Informática 1 a nivel bachillerato a primer semestre. 
+                    </div>
+                </div>
+                
+                <div class="experience experience_left">
+                    <div class="experience-date">Agosto 2020 - Agosto 2020</div>
+                    <div class="experience-company">Universidad Autónoma de Aguascalientes</div>
+                    <div class="experience-position">Prácticas Profesionales</div>
+                    <div class="experience-description">
+                        Desarrollo de un Mini-Proyecto haciendo la estructura de datos 
+                        para una barbería trabajando a la par al desarrollo de 
+                        un sistema de información para la barbería. 
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="line"></div>
+                <div class="experience">
+                    <div class="experience-date">Enero 2019 - Junio 2019</div>
+                    <div class="experience-company">Universidad Autónoma de Aguascalientes</div>
+                    <div class="experience-position">Servicio Social</div>
+                    <div class="experience-description">
+                        Depuración de equipos de computación.
+                        Apoyo a usuarios del laboratorio.
+                        Instalación de software para apoyo a materias.
+                        Mantenimiento preventivo.
+                        Clonación de discos duros para el traspaso/recuperación de información.
+                        Actualización de antivirus.
+                        Mantenimiento a los enlaces de la red institucional.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="img/wave.svg" alt="división" class="wave wave_bottom">
+    </section>
+
+    <div class="horizontal-padding vertical-padding">
+        <section class="skills">
+            <h2 class="skills-title">Habilidades</h2>
+            <ul class="skills-list">
+                <li class="skills-skill">Java</li>
+                <li class="skills-skill">C</li>
+                <li class="skills-skill">C++</li>
+                <li class="skills-skill">C#</li>
+                <li class="skills-skill">SQL</li>
+                <li class="skills-skill">CSS</li>
+                <li class="skills-skill">HTML</li>
+                <li class="skills-skill">JavaScript</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
